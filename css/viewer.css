@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.wrapper {
+  background: #50a3a2;
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.load {
+  position: relative;
+  left: 0%;
+  top: 40%;
+}
+#notepad  {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.comment  {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border: none;
+  background: transparent;
+  color: black;
+}
+.com_submit {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #51b2a3;
+  border: 1px solid #000000;
+  padding: 4px;
+  border-radius: 16px;
+  width: 80px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  -webkit-transition-duration: 1.25s;
+  transition-duration: 1.25s;
+}
+#comsub {
+  position: fixed;
+  left:50%;
+  top:80%;
+  transform: translate(-50%,-50%);
+}
+#newitemsub {
+  position: fixed;
+  left:50%;
+  top:75%;
+  transform: translate(-50%,-50%);
+}
+#com_noti {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#close_comment  {
+  position: fixed;
+  top: 25%;
+  left: 80%;
+  height: 25px;
+  width: 25px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#close_add  {
+  position: absolute;
+  top: 9%;
+  left: 96%;
+  height: 25px;
+  width: 25px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#addbox {
+  position: fixed;
+  height: 200px;
+  width: 350px;;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: ghostwhite;
+  box-shadow:
+          0px 0px 0px 0.5px rgba(0,0,0,0.6),
+          0px 0px 0px 0.5px #fff,
+          0px 0px 0px 0.5px rgba(0,0,0,0.2),
+          6px 6px 8px 0.5px #555;
+}
+#addnoti {
+  position: fixed;
+  left:50%;
+  top:90%;
+  transform: translate(-50%,-50%);
+}
+#collater {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+#colnoti {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+}

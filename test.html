@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayGround</title>
+    <style>
+
+        @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+        .note   {
+            position:fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text{
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            border: none;
+            background: transparent;
+            font-size: 110%;
+        }
+        #butt   {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: #51b2a3;
+            border: 1px solid #000000;
+            padding: 4px;
+            border-radius: 16px;
+            width: 80px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 16px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: white;
+            -webkit-transition-duration: 1.25s;
+            transition-duration: 1.25s;
+            position: fixed;
+            left:50%;
+            top:80%;
+            transform: translate(-50%,-50%);
+        }
+
+    </style>
+</head>
+<body>
+<div class="note">
+    <img src="images/notepad.png" />
+    <textarea class="text" rows="15" cols="40" placeholder="heeheheheheh"></textarea>
+    <button id="butt">Submit</button>
+</div>
+
+</body>
+</html>
